@@ -1,2 +1,1 @@
-# rpm-packaging-container-env
-Fedorabra's container RPM packaging
+# Fedorabra's container RPM packaging
