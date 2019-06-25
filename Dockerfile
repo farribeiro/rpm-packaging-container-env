@@ -1,5 +1,7 @@
 FROM fedora
 
+LABEL maintainer "Fabio Rodrigues Ribeiro <farribeiro@gmail.com>"
+
 RUN dnf groupinstall -y \
         "RPM Development Tools" \
         "C Development Tools and Libraries" \
