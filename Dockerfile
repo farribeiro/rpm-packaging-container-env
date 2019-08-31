@@ -11,7 +11,7 @@ RUN adduser -m -u ${GUID} -U ${U}
 RUN dnf groupinstall -y \
         "RPM Development Tools" \
         "C Development Tools and Libraries" \
-        && dnf install -y gcc rpm-build rpm-devel rpmlint make python bash coreutils diffutils patch rpmdevtools
+        && dnf install -y gcc rpm-build rpm-devel rpmlint make python bash coreutils diffutils patch rpmdevtools git
 
 USER $(U)
 
